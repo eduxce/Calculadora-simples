@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Calculadora - usando Java Script</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="imagem-mais" src="mais.png">
+        <h1 class="titulo-cabecalho">Calculadora</h1>
+        <a class="linkedin" href="www.linkedin.com/in/eduxce"><em>Perfil Linkedin</em></a>
+    </header>
+    <main class="mid-page">
+        <script class="js-code">
+            var nome = window.prompt('Qual seu nome?')
+            window.alert('Prazer em te conhecer, ' + nome)
+            var n1 = Number(window.prompt('Escolha um número'))
+            var n2 = Number(window.prompt('Escolha outro número'))
+            var s = n1 + n2
+            document.write(`O numero: ${n1} mais o numero: ${n2} resulta em: ${s}`)
+        </script>
+    </main>
+</body>
+
+</html>
